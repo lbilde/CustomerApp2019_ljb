@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Awesome-Larsness.CustomerApp2019.Core.Entity\Awesome-Larsness.CustomerApp2019.Core.Entity.csproj" />
+      <ProjectReference Include="..\Awesome-Larsness.CustomerApp2019.Core\Awesome-Larsness.CustomerApp2019.Core.csproj" />
+      <ProjectReference Include="..\Awesome-Larsness.CustomerApp2019.Infrastructure.Data\Awesome-Larsness.CustomerApp2019.Infrastructure.Data.csproj" />
+      <ProjectReference Include="..\Awesome-Larsness.CustomerApp2019.Infrastructure.SQLData\Awesome-Larsness.CustomerApp2019.Infrastructure.SQLData.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.6" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="2.2.6" />
+    </ItemGroup>
+
+</Project>

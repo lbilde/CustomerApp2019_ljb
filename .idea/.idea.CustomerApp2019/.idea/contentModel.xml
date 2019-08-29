@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.11.0/build/netcoreapp1.0/nunit.engine.netstandard.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.11.0/build/netcoreapp1.0/NUnit3.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.11.0/build/netcoreapp1.0/NUnit3.TestAdapter.pdb" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Awesome-Larsness.CustomerApp2019.Core" t="IncludeRecursive">
+        <e p="ApplicationService" t="Include">
+          <e p="ICustomerService.cs" t="Include" />
+          <e p="Services" t="Include">
+            <e p="CustomerService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Awesome-Larsness.CustomerApp2019.Core.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DomainService" t="Include">
+          <e p="ICustomerRepository.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Awesome-Larsness.CustomerApp2019.Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Awesome-Larsness.CustomerApp2019.Core.Entity" t="IncludeRecursive">
+        <e p="Address.cs" t="Include" />
+        <e p="Awesome-Larsness.CustomerApp2019.Core.Entity.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Customer.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Awesome-Larsness.CustomerApp2019.Core.Entity.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Awesome-Larsness.CustomerApp2019.Infrastructure.Data" t="IncludeRecursive">
+        <e p="Awesome-Larsness.CustomerApp2019.Infrastructure.Data.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="FakeDB.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Awesome-Larsness.CustomerApp2019.Infrastructure.Data.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="CustomerRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Awesome-Larsness.CustomerApp2019.Infrastructure.SQLData" t="IncludeRecursive">
+        <e p="Awesome-Larsness.CustomerApp2019.Infrastructure.SQLData.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CustomerAppContext.cs" t="Include" />
+        <e p="DBInitializer.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Awesome-Larsness.CustomerApp2019.Infrastructure.SQLData.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="CustomerRepository.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Awesome_Larsness.CustomerApp2019.Console2019" t="IncludeRecursive">
+        <e p="Awesome_Larsness.CustomerApp2019.Console2019.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Awesome_Larsness.CustomerApp2019.Console2019.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Awesome_Larsness.CustomerApp2019.Rest" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="Awesome_Larsness.CustomerApp2019.Rest.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="CustomersController.cs" t="Include" />
+        </e>
+        <e p="customerApp.db" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Awesome_Larsness.CustomerApp2019.Rest.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="core" t="Include" />
+      <e p="CustomerApp2019.sln" t="IncludeFlat" />
+      <e p="Infrastructure" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="TEst" t="Include" />
+      <e p="TestServices" t="IncludeRecursive">
+        <e p="ApplicationService" t="Include">
+          <e p="Services" t="Include">
+            <e p="CustomerServiceTest.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="TestServices.AssemblyInfo.cs" t="Include" />
+              <e p="TestServices.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TestServices.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="UI" t="Include" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_CustomerApp2019.-865973860.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/scratches" t="IncludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <RootNamespace>Awesome_Larsness.CustomerApp2019.Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Awesome-Larsness.CustomerApp2019.Core.Entity\Awesome-Larsness.CustomerApp2019.Core.Entity.csproj" />
+    </ItemGroup>
+
+</Project>
